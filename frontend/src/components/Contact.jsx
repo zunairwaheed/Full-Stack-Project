@@ -48,10 +48,10 @@ function Contact() {
                  {errors.email && <span className="text-sm text-red-500">This field is required</span>}
               </div>
               <div className="mt-4 space-y-2">
-                <span>Password</span> <br />
+                <span>Description</span> <br />
                 <input
-                  type="password"
-                  placeholder="Enter your password"
+                  type="text"
+                  placeholder="write your description"
                   className="w-80 px-3 rounded-md outline-none"
                   {...register("password", { required: true })}
                 />
