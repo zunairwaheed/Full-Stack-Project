@@ -1,18 +1,20 @@
 import React, { useEffect, useState } from "react";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+
+import axios from "axios";
+
 import Cards from "./Cards";
-import axios from "axios"
-
 function Freebook() {
-
   const [book, setBook] = useState([]);
   useEffect(() => {
     const getBook = async () => {
       try {
         const res = await axios.get("http://localhost:4001/book");
-        const data =res.data.filter((data) => data.category === "Free")
+
+        const data = res.data.filter((data) => data.category === "most selling");
         console.log(data);
         setBook(data);
       } catch (error) {
@@ -58,13 +60,11 @@ function Freebook() {
   };
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto md:px-20 px-4">
+      <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4">
         <div>
-          <h1 className="font-semibold text-xl pb-2">Free Books</h1>
+          <h1 className="font-semibold text-xl pb-2">Most Selling Parts</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis
-            molestias, officiis vitae earum laudantium quis! Lorem ipsum dolor,
-            sit amet consectetur adipisicing elit. Modi, voluptas!
+          Zore Auto Parts' most popular products include brake systems, engine components, fuel pump and suspension parts, known for their exceptional durability and performance.
           </p>
         </div>
 
@@ -79,5 +79,4 @@ function Freebook() {
     </>
   );
 }
-
 export default Freebook;

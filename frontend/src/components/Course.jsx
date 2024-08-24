@@ -23,17 +23,13 @@ function Course() {
         <div className="mt-28 items-center justify-center text-center ">
           <h1 className="text-2xl md:text-4xl">
             We are Happy to see you{" "}
-            <span className="text-pink-500">Here! :)</span>
+            <span className="text-red-600">Here! :)</span>
           </h1>
           <p className="mt-12">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo totam
-            eveniet consequuntur optio sint nesciunt quisquam in porro illo,
-            dolorum voluptate quaerat sequi nam beatae ex atque impedit fuga
-            corporis et! Alias, provident temporibus odit ipsum magnam et, rerum
-            nam dicta quae impedit quisquam quod laboriosam est, magni illo eum.
+          Zore Auto Parts serves customers across Pakistan, providing top-notch products and services to ensure the smooth operation of trucks nationwide.
           </p>
           <Link to="/">
-            <button className="mt-6 px-4 py-2 rounded-md text-white bg-pink-500 hover:bg-pink-700 duration-300">
+            <button className="mt-6 px-4 py-2 rounded-md text-white bg-red-600 hover:bg-red-950  duration-300">
               Back
             </button>
           </Link>

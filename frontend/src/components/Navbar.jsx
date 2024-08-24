@@ -5,7 +5,7 @@ import { useAuth } from "../context/AuthProvider";
 import Logout from "./Logout";
 
 function Navbar() {
-  const [authUser, setAuthUser]=useAuth();
+  const [authUser, setAuthUser] = useAuth();
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
   );
@@ -43,7 +43,7 @@ function Navbar() {
       </li>
 
       <li>
-        <a href="/course">Course</a>
+        <a href="/course">Products</a>
       </li>
 
       <li>
@@ -58,9 +58,9 @@ function Navbar() {
   return (
     <>
       <div
-        className={`max-w-screen-2xl container mx-auto md:px-20 px-4 dark:bg-slate-900 dark:text-white fixed top-0 left-0 right-0 z-50 ${
+        className={`max-w-screen-2xl bg-red-600 text-white container mx-auto md:px-20 px-4 dark:bg-slate-900 dark:text-white fixed top-0 left-0 right-0 z-50 ${
           sticky
-            ? " sticky-navbar bg-base-300 shadow-md dark:bg-slate-900 dark:text-white duration-200 transition-all ease-in-out"
+            ? " sticky-navbar bg-red-400 text-black shadow-md dark:bg-slate-900 dark:text-white duration-200 transition-all ease-in-out"
             : ""
         }`}
       >
@@ -94,7 +94,7 @@ function Navbar() {
                 {navItems}
               </ul>
             </div>
-            <a className="text-2xl font-bold cursor-pointer">BookStore</a>
+            <a className="text-2xl font-bold cursor-pointer">ZORE Auto Parts</a>
           </div>
           <div className="navbar-end space-x-3">
             <div className="navbar-center hidden lg:flex">
@@ -102,10 +102,10 @@ function Navbar() {
             </div>
 
             <div className="hidden md:block">
-              <label className="px-3 py-2 border rounded-md flex items-center gap-2 border-black dark:border-white">
+              <label className="px-3 py-2  border rounded-md flex items-center gap-2 border-black dark:border-white">
                 <input
                   type="text"
-                  className="grow outline-none dark:bg-slate-900 dark:text-white"
+                  className="grow outline-none text-center text-black rounded-md dark:bg-slate-900 dark:text-white"
                   placeholder="Search"
                 />
                 <svg
@@ -159,7 +159,7 @@ function Navbar() {
             ) : (
               <div className="">
                 <a
-                  className="bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer"
+                  className="bg-white text-red-600 font-bold px-3 py-2 rounded-md hover:bg-red-950 hover:text-white duration-300 cursor-pointer"
                   onClick={() =>
                     document.getElementById("my_modal_3").showModal()
                   }

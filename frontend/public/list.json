@@ -1,0 +1,72 @@
+[{
+    "id": 1,
+    "name": "Brake System",
+    "title": "This is our most selling product",
+    "price": 6,
+    "category": "most selling",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQigkKfJYN6Y3-6Ty240cZbH9UL4Vtm34mXA&s"
+},{
+    "id": 2,
+    "name": "Engine Components",
+    "title": "This is our most selling product",
+    "price": "6$",
+    "category": "most selling",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz3VIrWj1_Repfl6A3J2ER6RUs623ANUIo8g&s"
+},{
+    "id": 3,
+    "name": "Suspension Parts",
+    "title": "This is our most selling product",
+    "price": "6$",
+    "category": "most selling",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm4XYo79COFYvrWId6yUAb3tAgtoH3eAj4Kw&s"
+},{
+    "id": 4,
+    "name": "Fuel Pump",
+    "title": "This is our most selling product",
+    "price": "6$",
+    "category": "most selling",
+    "image":"https://5.imimg.com/data5/JZ/HH/KQ/SELLER-55391942/man-truck-vp-44-fuel-injection-pump-500x500.jpg"
+},{
+    "id": 5,
+    "name": "Auto Part",
+    "title": "We manufacture this part",
+    "price": "10$",
+    "category": "best",
+    "image":"https://5.imimg.com/data5/HK/XC/MY-2620215/auto-parts-500x500.jpg"
+},{
+    "id": 6,
+    "name": "Auto Part",
+    "title": "We manufacture this part",
+    "price": "10$",
+    "category": "best",
+    "image":"https://5.imimg.com/data5/HK/XC/MY-2620215/auto-parts-500x500.jpg"
+},{
+    "id": 7,
+    "name": "Auto Part",
+    "title": "We manufacture this part",
+    "price": "10$",
+    "category": "best",
+    "image":"https://5.imimg.com/data5/HK/XC/MY-2620215/auto-parts-500x500.jpg"
+},{
+    "id": 8,
+    "name": "Auto Part",
+    "title": "We manufacture this part",
+    "price": "10$",
+    "category": "best",
+    "image":"https://5.imimg.com/data5/HK/XC/MY-2620215/auto-parts-500x500.jpg"
+},{
+    "id": 9,
+    "name": "Auto Part",
+    "title": "We manufacture this part",
+    "price": "10$",
+    "category": "best",
+    "image":"https://5.imimg.com/data5/HK/XC/MY-2620215/auto-parts-500x500.jpg"
+},{
+    "id": 10,
+    "name": "Auto Part",
+    "title": "We manufacture this part",
+    "price": "10$",
+    "category": "best",
+    "image":"https://5.imimg.com/data5/HK/XC/MY-2620215/auto-parts-500x500.jpg"
+}
+]
