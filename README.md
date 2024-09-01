@@ -1,2 +1,3 @@
 **How to run:**
-npm run dev
+fontend: npm run dev
+backend: npm start
